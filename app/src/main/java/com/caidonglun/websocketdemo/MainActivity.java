@@ -130,13 +130,13 @@ public class MainActivity extends AppCompatActivity {
 
                                           @Override
                                           public void onClose(int code, String reason) {
-//                                              sendExecutor.shutdown();
 
                                           }
                                       });
 
 //下面内容算是模板
 //                 webSocketCall.enqueue(new WebSocketListener() {
+//                这句话是心跳检测，别搞错了。
 //                    private final ExecutorService sendExecutor = Executors.newSingleThreadExecutor();
 //                    private WebSocket webSocket;
 //                    @Override
