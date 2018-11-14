@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_start_socket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开启websocket"
+        />
+
+    <EditText
+        android:id="@+id/et_roomName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入房间名称！"
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/btn_socketClient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="socketClient"
+        />
+    <Button
+        android:id="@+id/btn_close_clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="关闭+清空"
+        />
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_sendMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sendMessage"
+            />
+<EditText
+    android:id="@+id/et_editMessage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:hint="消息内容"
+    />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_show"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>
